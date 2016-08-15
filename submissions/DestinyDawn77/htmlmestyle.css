@@ -1,0 +1,161 @@
+
+
+.header{
+    height: 200px;
+    width: 100%;
+
+    padding:0;
+    margin-left: 0pt;
+    margin-right: 0pt;
+    margin-bottom: 4pt;
+    margin-top: 0pt;
+
+
+    border-style: inset;
+    border-width: 3pt;
+    border-color: #732626;
+
+    background-color: #3973ac;
+    vertical-align: middle;
+}
+
+h1{
+   text-align: center;
+   font-family: "Harrington Regular", "Baskerville Oldface", cursive;
+   font-size: 64pt;
+
+}
+#navbar{
+  margin:0;
+  padding:0;
+  height: 60px;
+  width:inherit;
+
+  vertical-align: center;
+
+
+}
+
+ul{
+  height: 40px;
+  list-style-type: none;
+  vertical-align: center;
+  background-color: #2952a3;
+  margin:0;
+  padding-top: 8px;
+  padding-bottom: 0px;
+  padding-left: 55px;
+
+
+  }
+
+
+
+li{
+  height: 30px;
+  display:inline-block;
+  border-style: solid;
+  border-color: black;
+  border-width: 2pt;
+
+  width: 23%;
+  margin: 0;
+  padding 0;
+  vertical-align: middle;
+
+  color:white;
+  background-color: #660022;
+
+  text-decoration: none;
+  text-align: center;
+  font-size: 18pt;
+  font-family: sans-serif;
+}
+li:hover{
+  background-color: #ffccdd;
+  color:black;
+  text-shadow: 1pt;
+
+}
+
+li a:hover{
+  color: black;
+  text-shadow: 2pt;
+}
+li a{
+  color: white;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+article{
+  text-decoration: none;
+  margin:75px;
+  font-size: 14pt;
+  font-family: "Times New Roman", times, serif;
+  text-align: justify;
+  text-indent: 15pt;
+
+}
+article a:link{
+  text-decoration: none;
+  color:#002266;
+}
+
+article a:visited{
+  color:#002266;
+}
+
+
+h3{
+  text-align: center;
+  font-size: 24pt;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #00284d;
+}
+#apple{
+  height: 200px;
+  width: auto;
+  float:right;
+  margin-top:10px;;
+  margin-left:5pt;
+  margin-bottom: 5pt;
+}
+div.imagegal{
+  display: inline;
+  position:relative;
+  left:75px;
+  width: 100%;
+
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+
+}
+
+}
+img.blockimage{
+  position:relative;
+  border-style: solid;
+  border-width: 3pt;
+  margin:0;
+  padding:0;
+  border-color: black;
+}
+
+img.blockimage:hover{
+  -moz-box-shadow: 0 0 30px  #666666;
+  -webkit-box-shadow: 0 0 30px  #666666;
+  box-shadow: 0 0 30px  #666666;
+}
+img.bottom{
+  border-style: ridge;
+  border-width: medium;
+  border-color: black;
+
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
